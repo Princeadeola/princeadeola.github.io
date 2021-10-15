@@ -324,16 +324,16 @@ img{
 .skills_js{
 	width: 75%;
 }
-.skills_react{
-	width: 50%;
-}
 .skills_wordpress{
 	width: 80%;
 }
 .skills_java{
-	width: 80%;
+	width: 85%;
 }
 .skills_kotlin{
+	width: 80%;
+}
+.skills_react_native{
 	width: 75%;
 }
 .skills_database{
@@ -394,6 +394,7 @@ img{
 				/* Service section styling begins */
 .services_container{
 	row-gap: 2rem;
+	cursor: pointer;
 }
 .services_content{
 	padding: 1.5rem .5rem;
