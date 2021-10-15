@@ -2,6 +2,13 @@ const navMenu = document.getElementById('nav_menu');
 const toggleMenu = document.getElementById('nav_toggle');
 const closeMenu = document.getElementById('nav_close');
 
+//pop up
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+
 // Show
 toggleMenu.addEventListener('click', ()=>{
 	navMenu.classList.toggle('show')
